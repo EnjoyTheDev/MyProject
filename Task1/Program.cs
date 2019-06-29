@@ -8,6 +8,7 @@ namespace Task1
     {
       // Explicit conversions
 
+
       // Implicit conversions
       byte numb1 = 255;
       short numb2 = numb1;
