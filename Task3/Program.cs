@@ -18,13 +18,19 @@ namespace Task3
       var yourResult = Convert.ToInt32(Console.ReadLine());
 
       var myResult = a + b;
+
       if (yourResult == myResult)
       {
         Console.WriteLine("Correct");
       }
-      else
+      else if (yourResult > myResult)
       {
-        Console.WriteLine("Incorrect");
+        Console.WriteLine("Incorrect - should be less");
+
+      }
+      else if (yourResult < myResult)
+      {
+        Console.WriteLine("Incorrect - should be more");
       }
     }
     static void Main(string[] args)
