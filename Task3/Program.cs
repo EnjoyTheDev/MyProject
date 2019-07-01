@@ -13,8 +13,19 @@ namespace Task3
       Console.WriteLine($"enter second number:");
       int b = Convert.ToInt32(Console.ReadLine());
 
-      var result = a + b; 
-      Console.WriteLine($"result = {result}");
+      Console.WriteLine("enter your result:");
+
+      var yourResult = Convert.ToInt32(Console.ReadLine());
+
+      var myResult = a + b;
+      if (yourResult == myResult)
+      {
+        Console.WriteLine("Correct");
+      }
+      else
+      {
+        Console.WriteLine("Incorrect");
+      }
     }
     static void Main(string[] args)
     {
