@@ -7,17 +7,23 @@ namespace Task3
     static void Sum()
     {
 
-      Console.WriteLine($"enter first number:");
+      Console.WriteLine("enter first number:");
       int a = Convert.ToInt32(Console.ReadLine());
 
-      Console.WriteLine($"enter second number:");
+      Console.WriteLine("enter second number:");
       int b = Convert.ToInt32(Console.ReadLine());
 
-      Console.WriteLine("enter your result:");
+      Console.WriteLine("enter second number:");
 
+
+      Console.WriteLine("enter + or -");
+      var select = Console.ReadLine();
+      var myResult = select == "+" ? (a + b) : (a - b);
+
+
+      Console.WriteLine("enter your result:");
       var yourResult = Convert.ToInt32(Console.ReadLine());
 
-      var myResult = a + b;
 
       if (yourResult == myResult)
       {
