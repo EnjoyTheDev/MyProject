@@ -1,15 +1,10 @@
-﻿using System;
-
-namespace Task3
-{
-  class Program
-  {
 using System;
 
 namespace Task3
 {
   class Program
   {
+
     // Task 1
     static void Sum()
     {
@@ -22,6 +17,7 @@ namespace Task3
       Console.WriteLine(result);
       Console.WriteLine();
     }
+
     //Task 2
     static void Check()
     {
@@ -45,6 +41,7 @@ namespace Task3
       }
       Console.WriteLine();
     }
+
     // Task 3
     static void Comparison()
     {
@@ -72,6 +69,7 @@ namespace Task3
       }
       Console.WriteLine();
     }
+
     // Task 4
     static void Choice()
     {
@@ -101,6 +99,7 @@ namespace Task3
         Console.WriteLine("Incorrect - should be more");
       }
     }
+
     static void Main(string[] args)
     {
       Sum();
@@ -108,8 +107,5 @@ namespace Task3
       Comparison();
       Choice();
     }
-  }
-}
-
   }
 }
