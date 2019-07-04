@@ -13,9 +13,6 @@ namespace Task3
       Console.WriteLine("enter second number:");
       int b = Convert.ToInt32(Console.ReadLine());
 
-      Console.WriteLine("enter second number:");
-
-
       Console.WriteLine("enter + or -");
       var select = Console.ReadLine();
       var myResult = select == "+" ? (a + b) : (a - b);
@@ -23,7 +20,6 @@ namespace Task3
 
       Console.WriteLine("enter your result:");
       var yourResult = Convert.ToInt32(Console.ReadLine());
-
 
       if (yourResult == myResult)
       {
