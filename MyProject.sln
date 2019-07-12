@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1", "Task1\Task1.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2", "Task2\Task2.csproj", "{506D896D-E4B1-45C0-BEBF-4EAF55F87629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5", "Task5\Task5.csproj", "{E0B416D9-CF7C-42D2-885E-B9236F99BD60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task5.1", "Task5\Task5.1.csproj", "{E0B416D9-CF7C-42D2-885E-B9236F99BD60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
